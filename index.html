@@ -81,17 +81,12 @@
                                     <p id="alert" class="hidden justify-center absolute"></p>
                                 </div>
                             </div>
-                            <!-- Github & Linkedin links -->
+                            <!-- Github link -->
                             <nav class="flex justify-end">               
                                 <div id="nav_content" class="mx-auto my-auto flex flex-row justify-between">
                                     <div class="mx-3 md:my-3 md:mx-5">
                                         <a href="https://github.com/ImmuneMoon" target="_blank" onclick="gitclick();" aria-label="Github">
                                             <img id="github" src="https://api.iconify.design/octicon:mark-github-16.svg?color=%2300d4b5" class="w-7" loading="lazy" alt="Github"/>
-                                        </a>
-                                    </div>
-                                    <div class="mx-3 md:my-3 md:mx-5">
-                                        <a href="https://github.com/ImmuneMoon" target="_blank" onclick="inclick();" aria-label="Linkedin">
-                                            <img id="linkedin" src="https://api.iconify.design/akar-icons:linkedinv1-fill.svg?color=%2300d4b5" class="w-7" loading="lazy" alt="Linkedin" />
                                         </a>
                                     </div>
                                 </div>
@@ -112,7 +107,7 @@
             </div>
         </nav>
         <main class="container mx-auto">
-            <!-- Resume and known languages -->
+            <!-- Known languages -->
             <section id="creds_section" class="my-auto">
                 <div id="creds_container" class="flex justify-center items-center content-center">
                     <div id="credentials">
@@ -162,20 +157,10 @@
                                     <img class="lang" src="https://api.iconify.design/mdi:language-c.svg?color=%23cccde0" loading="lazy" alt="C-Lang" />
                                 </li>
                             </ul>
-                        <!---
-                        </div>
-                        <div class="flex justify-center my-7">
-                            <a href="./docs/resume.pdf" target="_blank" aria-label="Resume">
-                                <button id="resume" class="text-lg font-semibold">
-                                        Résumé
-                                </button>
-                            </a>
-                        </div>
-                        -->
                     </div>
                 </div>
             </section>
-            <!-- About me section, including certificates -->
+            <!-- About me section -->
             <section id="about_section" class="flex justify-center items-center m-auto">
                 <div id="about_container" class="grid grid-cols-1 2xl:grid-cols-2">
                     <div id="me_text_circle" class="col-span-1 relative z-0">
@@ -196,74 +181,6 @@
                                 I consider myself a creative and am quite eager to put my skills to use, and my greatest 
                                 aspiration, is to create something that will inspire the cycle of curiosity to begin anew.
                                 </p>
-                        </div>
-                    </div>
-                    <div id="certs_container" class="flex justify-center col-span-2 mx-auto p-6">
-                        <h2 id="certs_heading" class="text-center absolute z-0">
-                            Certificates 🎓
-                        </h2>
-                        <div id="certs" class="flex flex-col justify-center">
-                            <div id="hx" class="flex justify-start md:justify-end">
-                                <div id="hx_container" class="flex flex-col p-10 mb-8 lg:flex-row">
-                                    <div class="flex flex-col">
-                                        <div>
-                                            <h3 id="hx_title" class="text-center mb-3 mx-auto pb-4 px-5 items-center">
-                                                HarvardX
-                                            </h3>
-                                            <h4 id="hx_desc" class="text-center my-3">
-                                                CS50x - Intro to Computer Sci <br>and The Art of Programming
-                                            </h4>
-                                        </div>
-                                        <p id="hx_text" class="text-center mx-auto flex justify-center items-center">
-                                            During CS50x, I developed skills in C, Python, SQLite, Flask, Bootstrap, JavaScript and web design. This certificate represents approx. 10 weeks of study; including 10 problem sets, 8 labs, and a final project.
-                                        </p>
-                                    </div>
-                                    <a class="ml-0 mt-7 lg:ml-10 flex justify-center" href="https://certificates.cs50.io/5d48894d-a24d-4232-9b11-6a2881d503d2.pdf?size=letter" target="_blank" aria-label="CS50x Certificate">
-                                        <img id="CS50x" class="max-w-xs" src="./docs/CS50x Certificate (9-25-22).png" loading="lazy" alt="CS50x cert" />
-                                    </a>
-                                    <div id="click_me_container" class="absolute z-0 flex">
-                                        <p id="click_me">Click Me!</p>
-                                        <img id="click_me_arrow" class="absolute" src="./Images/clickMe-arrow.png" loading="lazy" alt="Click me arrow" />
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="fcc" class="flex flex-col justify-end md:justify-start">
-                                <div id="fcc_container" class="flex flex-col justify-center">
-                                    <h3 id="fcc_title" class="text-center mt-12 mx-auto py-2 px-5 items-center">
-                                        Freecodecamp
-                                    </h3>
-                                    <div class="flex flex-col justify-center p-10 lg:flex-row-reverse">
-                                        <div class="flex flex-col">
-                                            <div>
-                                                <h4 id="fcc_desc" class="text-center">
-                                                    Responsive Web Design
-                                                </h4>
-                                            </div>
-                                            <p id="fcc_text" class="text-center items-center">
-                                                During Freecodecamp's responsive web design course, I developed skills in HTML, CSS and learned how to implement them in responsive, accessible websites. This certificate represents approx. 300hrs of coursework; including 5 final projects.
-                                            </p>
-                                        </div>
-                                        <a class="mr-0 mt-7 lg:mr-10 flex justify-center" href="https://www.freecodecamp.org/certification/immunemoon/responsive-web-design" target="_blank" aria-label="Freecodecamp Responsive Web Design Certificate">
-                                            <img id="rwd" class="max-w-xs" src="./docs/FreeCodeCamp Responsive Web Design Certificate (8-31-21).png" loading="lazy" alt="Freecodecamp cert" />
-                                        </a>
-                                    </div>
-                                    <div class="flex flex-col p-10 lg:flex-row">
-                                        <div class="flex flex-col">
-                                            <div>
-                                                <h4 id="fcc_desc" class="text-center">
-                                                    JavaScript Algorithms and Data Structures
-                                                </h4>
-                                            </div>
-                                            <p id="fcc_text" class="text-center items-center">
-                                                During Freecodecamp's JavaScript algorithms and data structures course, I developed skills in JavaScript and it's uses in practical programming. This certificate represents approx. 300hrs of coursework; including 5 final projects.
-                                            </p>
-                                        </div>
-                                        <a class="mr-0 mt-7 lg:ml-10 flex justify-center" href="https://www.freecodecamp.org/certification/immunemoon/javascript-algorithms-and-data-structures" target="_blank" aria-label="Freecodecamp JavaScript Algorithms and Data Structures">
-                                            <img id="jad" class="max-w-xs" src="./docs/FreeCodeCamp JavaScript Algorithms and Data Structures (04-17-23).png" loading="lazy" alt="Freecodecamp cert" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
